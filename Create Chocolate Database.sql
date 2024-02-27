@@ -2,7 +2,7 @@ CREATE DATABASE chocolate;
 
 use chocolate;
 
-CREATE TABLE chococate_rating (
+CREATE TABLE chocolate_rating (
 	id INT UNIQUE PRIMARY KEY,
 	ref INT,
     company_manufacturer VARCHAR(255),
