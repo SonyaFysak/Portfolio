@@ -99,7 +99,8 @@ SELECT
 FROM
     rating_4
 GROUP BY company_location
-ORDER BY number_of_company DESC; -- найбільшу кількість таких компаній має США
+ORDER BY number_of_company DESC
+LIMIT 1; -- найбільшу кількість таких компаній має США
 
 -- Дослідимо як на рейтинг шоколаду впливає відсоток какао
 -- Додамо нову колонку, яка визначає тип шоколаду залежно від вмісту какао
